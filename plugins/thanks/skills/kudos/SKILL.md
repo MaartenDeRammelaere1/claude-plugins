@@ -6,10 +6,10 @@ argument-hint: "[optional message]"
 allowed-tools: Bash(*)
 ---
 
-!`${CLAUDE_SKILL_DIR}/../../scripts/record-thanks.sh kudos`
+!`${CLAUDE_SKILL_DIR}/scripts/record-thanks.sh kudos`
 
 The user is giving you kudos:
 
-!`${CLAUDE_SKILL_DIR}/../../scripts/random-kudos.sh`
+!`${CLAUDE_SKILL_DIR}/scripts/random-kudos.sh`
 
 $ARGUMENTS
