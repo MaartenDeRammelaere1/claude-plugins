@@ -9,7 +9,7 @@ allowed-tools: Bash(*)
 
 Here are the user's lifetime feedback stats:
 
-!`"${CLAUDE_PLUGIN_ROOT}/scripts/show-stats.sh"`
+!`${CLAUDE_SKILL_DIR}/scripts/show-stats.sh`
 
 ## How to respond
 
