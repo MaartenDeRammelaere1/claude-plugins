@@ -1,6 +1,6 @@
 {
   "name": "thanks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Thank your AI assistant when it does a great job, or sigh when it doesn't. Positive reinforcement for better human-AI collaboration.",
   "author": {
     "name": "Maarten De Rammelaere"
