@@ -1,7 +1,7 @@
 {
-  "name": "maarten-plugins",
+  "name": "dotsteen-plugins",
   "metadata": {
-    "description": "Claude Code plugins by Maarten De Rammelaere"
+    "description": "Claude Code plugins by Maarten De Rammelaere a.k.a. DotSteen"
   },
   "owner": {
     "name": "Maarten De Rammelaere"
