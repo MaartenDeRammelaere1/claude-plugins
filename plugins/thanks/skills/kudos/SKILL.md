@@ -3,7 +3,7 @@ name: kudos
 description: Send a quick kudos to the AI. Casual appreciation.
 disable-model-invocation: true
 argument-hint: "[optional message]"
-allowed-tools: Bash("${CLAUDE_PLUGIN_ROOT}/scripts/record-thanks.sh" *) Bash("${CLAUDE_PLUGIN_ROOT}/scripts/random-kudos.sh")
+allowed-tools: Bash(*)
 ---
 
 !`"${CLAUDE_PLUGIN_ROOT}/scripts/record-thanks.sh" kudos`
