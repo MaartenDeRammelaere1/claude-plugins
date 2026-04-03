@@ -1,0 +1,23 @@
+{
+  "name": "maarten-plugins",
+  "metadata": {
+    "description": "Claude Code plugins by Maarten De Rammelaere"
+  },
+  "owner": {
+    "name": "Maarten De Rammelaere"
+  },
+  "plugins": [
+    {
+      "name": "thanks",
+      "source": "./plugins/thanks",
+      "description": "Thank your AI when it does a great job, or sigh when it doesn't.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Maarten De Rammelaere"
+      },
+      "license": "MIT",
+      "keywords": ["thanks", "kudos", "sigh", "motivation", "reinforcement", "fun"],
+      "category": "fun"
+    }
+  ]
+}
