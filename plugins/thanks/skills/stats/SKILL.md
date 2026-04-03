@@ -2,6 +2,7 @@
 name: stats
 description: Show lifetime thanks, kudos, and sigh statistics.
 disable-model-invocation: true
+allowed-tools: Bash("${CLAUDE_PLUGIN_ROOT}/scripts/show-stats.sh")
 ---
 
 # Thanks Plugin Stats

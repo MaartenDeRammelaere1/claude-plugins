@@ -3,6 +3,7 @@ name: thanks
 description: Send a thank-you message to the AI for doing a good job.
 disable-model-invocation: true
 argument-hint: "[optional message]"
+allowed-tools: Bash("${CLAUDE_PLUGIN_ROOT}/scripts/record-thanks.sh" *) Bash("${CLAUDE_PLUGIN_ROOT}/scripts/random-thanks.sh")
 ---
 
 !`"${CLAUDE_PLUGIN_ROOT}/scripts/record-thanks.sh" genuine`
